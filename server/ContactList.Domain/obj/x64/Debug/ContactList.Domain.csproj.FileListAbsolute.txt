@@ -1,0 +1,15 @@
+D:\Projetos\git.nddigital\ContactList\server\bin\Debug\ContactList.Domain.dll.config
+D:\Projetos\git.nddigital\ContactList\server\bin\Debug\ContactList.Domain.dll
+D:\Projetos\git.nddigital\ContactList\server\bin\Debug\ContactList.Domain.pdb
+D:\Projetos\git.nddigital\ContactList\server\NDDFrete.Payment.Domain\obj\x64\Debug\ContactList.Domain.csproj.CoreCompileInputs.cache
+D:\Projetos\git.nddigital\ContactList\server\NDDFrete.Payment.Domain\obj\x64\Debug\ContactList.Domain.csproj.CopyComplete
+D:\Projetos\git.nddigital\ContactList\server\NDDFrete.Payment.Domain\obj\x64\Debug\ContactList.Domain.dll
+D:\Projetos\git.nddigital\ContactList\server\NDDFrete.Payment.Domain\obj\x64\Debug\ContactList.Domain.pdb
+D:\Projetos\ContactList\server\bin\Debug\ContactList.Domain.dll.config
+D:\Projetos\ContactList\server\bin\Debug\ContactList.Domain.dll
+D:\Projetos\ContactList\server\bin\Debug\ContactList.Domain.pdb
+D:\Projetos\ContactList\server\ContactList.Domain\obj\x64\Debug\ContactList.Domain.csprojAssemblyReference.cache
+D:\Projetos\ContactList\server\ContactList.Domain\obj\x64\Debug\ContactList.Domain.csproj.CoreCompileInputs.cache
+D:\Projetos\ContactList\server\ContactList.Domain\obj\x64\Debug\ContactList.Domain.csproj.CopyComplete
+D:\Projetos\ContactList\server\ContactList.Domain\obj\x64\Debug\ContactList.Domain.dll
+D:\Projetos\ContactList\server\ContactList.Domain\obj\x64\Debug\ContactList.Domain.pdb

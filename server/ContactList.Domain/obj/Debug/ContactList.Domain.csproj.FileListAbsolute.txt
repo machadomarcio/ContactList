@@ -1,0 +1,7 @@
+D:\Projetos\ContactList\server\bin\Debug\ContactList.Domain.dll.config
+D:\Projetos\ContactList\server\bin\Debug\ContactList.Domain.dll
+D:\Projetos\ContactList\server\bin\Debug\ContactList.Domain.pdb
+D:\Projetos\ContactList\server\ContactList.Domain\obj\Debug\ContactList.Domain.csproj.CoreCompileInputs.cache
+D:\Projetos\ContactList\server\ContactList.Domain\obj\Debug\ContactList.Domain.csproj.CopyComplete
+D:\Projetos\ContactList\server\ContactList.Domain\obj\Debug\ContactList.Domain.dll
+D:\Projetos\ContactList\server\ContactList.Domain\obj\Debug\ContactList.Domain.pdb

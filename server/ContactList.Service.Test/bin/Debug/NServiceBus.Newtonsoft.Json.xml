@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NServiceBus.Newtonsoft.Json</name>
+    </assembly>
+    <members>
+        <member name="T:NServiceBus.Newtonsoft.Json.JsonMessageSerializer">
+            <summary>
+            Newtonsoft JSON message serializer.
+            Initializes a new instance of <see cref="T:NServiceBus.Newtonsoft.Json.JsonMessageSerializer"/>.
+            </summary>
+        </member>
+        <member name="M:NServiceBus.Newtonsoft.Json.JsonMessageSerializer.#ctor(NServiceBus.MessageInterfaces.IMessageMapper)">
+            <summary>
+            Initializes a new instance of <see cref="T:NServiceBus.Newtonsoft.Json.JsonMessageSerializer"/>.
+            </summary>
+        </member>
+        <member name="P:NServiceBus.Newtonsoft.Json.JsonMessageSerializer.Settings">
+            <summary>
+            Configures the <see cref="T:Newtonsoft.Json.JsonSerializerSettings"/> to use.
+            </summary>
+        </member>
+        <member name="P:NServiceBus.Newtonsoft.Json.JsonMessageSerializer.ReaderCreator">
+            <summary>
+            Configures the <see cref="T:Newtonsoft.Json.JsonReader"/> creator of JSON stream.
+            </summary>
+        </member>
+        <member name="P:NServiceBus.Newtonsoft.Json.JsonMessageSerializer.WriterCreator">
+            <summary>
+            Configures the <see cref="T:Newtonsoft.Json.JsonWriter"/> creator of JSON stream.
+            </summary>
+        </member>
+        <member name="T:NServiceBus.Newtonsoft.Json.NewtonsoftSerializer">
+            <summary>
+            Defines the capabilities of the JSON serializer
+            </summary>
+        </member>
+        <member name="M:NServiceBus.Newtonsoft.Json.NewtonsoftSerializer.ProvidedByFeature">
+            <summary>
+            <see cref="M:NServiceBus.Serialization.SerializationDefinition.ProvidedByFeature"/>
+            </summary>
+        </member>
+        <member name="T:NServiceBus.NewtonsoftConfigurationExtensions">
+            <summary>
+            Extensions for <see cref="T:NServiceBus.Configure"/> to manipulate how messages are serialized via Json.net.
+            </summary>
+        </member>
+        <member name="M:NServiceBus.NewtonsoftConfigurationExtensions.ReaderCreator(NServiceBus.Serialization.SerializationExtentions{NServiceBus.Newtonsoft.Json.NewtonsoftSerializer},System.Func{System.IO.Stream,Newtonsoft.Json.JsonReader})">
+            <summary>
+            Configures the <see cref="T:Newtonsoft.Json.JsonReader"/> creator of JSON stream.
+            </summary>
+            <param name="config">The configuration object</param>
+            <param name="readerCreator">A delegate that creates a <see cref="T:Newtonsoft.Json.JsonReader"/> for a <see cref="T:System.IO.Stream"/>.</param>
+        </member>
+        <member name="M:NServiceBus.NewtonsoftConfigurationExtensions.WriterCreator(NServiceBus.Serialization.SerializationExtentions{NServiceBus.Newtonsoft.Json.NewtonsoftSerializer},System.Func{System.IO.Stream,Newtonsoft.Json.JsonWriter})">
+            <summary>
+            Configures the <see cref="T:Newtonsoft.Json.JsonWriter"/> creator of JSON stream.
+            </summary>
+            <param name="config">The configuration object.</param>
+            <param name="writerCreator">A delegate that creates a <see cref="T:Newtonsoft.Json.JsonWriter"/> for a <see cref="T:System.IO.Stream"/>.</param>
+        </member>
+        <member name="M:NServiceBus.NewtonsoftConfigurationExtensions.Settings(NServiceBus.Serialization.SerializationExtentions{NServiceBus.Newtonsoft.Json.NewtonsoftSerializer},Newtonsoft.Json.JsonSerializerSettings)">
+            <summary>
+            Configures the <see cref="T:Newtonsoft.Json.JsonSerializerSettings"/> to use.
+            </summary>
+            <param name="config">The configuration object.</param>
+            <param name="settings">The <see cref="T:Newtonsoft.Json.JsonSerializerSettings"/> to use.</param>
+        </member>
+        <member name="M:NewtonsoftSerialization.Setup(NServiceBus.Features.FeatureConfigurationContext)">
+            <summary>
+            See <see cref="M:NServiceBus.Features.Feature.Setup(NServiceBus.Features.FeatureConfigurationContext)"/>
+            </summary>
+        </member>
+    </members>
+</doc>

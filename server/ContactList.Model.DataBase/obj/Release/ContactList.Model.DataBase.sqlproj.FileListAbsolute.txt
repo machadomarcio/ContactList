@@ -1,0 +1,9 @@
+D:\Projetos\ContactList\server\ContactList.Model.DataBase\bin\Release\ContactList.Model.DataBase.dacpac
+D:\Projetos\ContactList\server\ContactList.Model.DataBase\bin\Release\ContactList.Model.DataBase.dll
+D:\Projetos\ContactList\server\ContactList.Model.DataBase\bin\Release\ContactList.Model.DataBase.pdb
+D:\Projetos\ContactList\server\ContactList.Model.DataBase\obj\Release\Model.xml
+D:\Projetos\ContactList\server\ContactList.Model.DataBase\obj\Release\refactor.xml
+D:\Projetos\ContactList\server\ContactList.Model.DataBase\obj\Release\postdeploy.sql
+D:\Projetos\ContactList\server\ContactList.Model.DataBase\obj\Release\predeploy.sql
+D:\Projetos\ContactList\server\ContactList.Model.DataBase\obj\Release\ContactList.Model.DataBase.dll
+D:\Projetos\ContactList\server\ContactList.Model.DataBase\obj\Release\ContactList.Model.DataBase.pdb

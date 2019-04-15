@@ -1,0 +1,9 @@
+D:\Projetos\git.nddigital\nddFrete_Payment\server\bin\Release\global.config
+D:\Projetos\git.nddigital\nddFrete_Payment\server\bin\Release\NDDFrete.Payment.Service.dll.config
+D:\Projetos\git.nddigital\nddFrete_Payment\server\bin\Release\NDDFrete.Payment.Service.dll
+D:\Projetos\git.nddigital\nddFrete_Payment\server\bin\Release\NDDFrete.Payment.Service.pdb
+D:\Projetos\git.nddigital\nddFrete_Payment\server\NDDFrete.Payment.Service\obj\x64\Release\NDDFrete.Payment.Service.csprojAssemblyReference.cache
+D:\Projetos\git.nddigital\nddFrete_Payment\server\NDDFrete.Payment.Service\obj\x64\Release\NDDFrete.Payment.Service.csproj.CoreCompileInputs.cache
+D:\Projetos\git.nddigital\nddFrete_Payment\server\NDDFrete.Payment.Service\obj\x64\Release\NDDFrete.Payment.Service.csproj.CopyComplete
+D:\Projetos\git.nddigital\nddFrete_Payment\server\NDDFrete.Payment.Service\obj\x64\Release\NDDFrete.Payment.Service.dll
+D:\Projetos\git.nddigital\nddFrete_Payment\server\NDDFrete.Payment.Service\obj\x64\Release\NDDFrete.Payment.Service.pdb

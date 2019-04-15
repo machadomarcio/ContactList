@@ -1,0 +1,8 @@
+D:\Projetos\ContactList\server\bin\Release\ContactList.Common.dll.config
+D:\Projetos\ContactList\server\bin\Release\ContactList.Common.dll
+D:\Projetos\ContactList\server\bin\Release\ContactList.Common.pdb
+D:\Projetos\ContactList\server\ContactList.Common\obj\Release\ContactList.Common.csproj.CoreCompileInputs.cache
+D:\Projetos\ContactList\server\ContactList.Common\obj\Release\ContactList.Common.csproj.CopyComplete
+D:\Projetos\ContactList\server\ContactList.Common\obj\Release\ContactList.Common.dll
+D:\Projetos\ContactList\server\ContactList.Common\obj\Release\ContactList.Common.pdb
+D:\Projetos\ContactList\server\ContactList.Common\obj\Release\ContactList.Common.csprojAssemblyReference.cache

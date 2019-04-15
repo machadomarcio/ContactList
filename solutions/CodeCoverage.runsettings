@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+  <RunConfiguration>
+    <TargetPlatform>x64</TargetPlatform>
+  </RunConfiguration>
+  <DataCollectionRunSettings>
+    <DataCollectors>
+      <DataCollector friendlyName="Code Coverage" uri="datacollector://Microsoft/CodeCoverage/2.0" assemblyQualifiedName="Microsoft.VisualStudio.Coverage.DynamicCoverageDataCollector, Microsoft.VisualStudio.TraceCollector, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+        <Configuration>
+          <CodeCoverage>
+
+            <Functions>
+              <Exclude>
+                <Function>^NDDFrete.Payment.Builder\..*</Function>
+				        <Function>^NDDFrete.Payment.Map4ConnectApi\..*</Function>
+              </Exclude>
+            </Functions>
+
+            <ModulePaths>
+              <Exclude>
+                <ModulePath>.*CPPUnitTestFramework.*</ModulePath>
+                <ModulePath>.*HtmlAgilityPack.*</ModulePath>
+                <ModulePath>.*\.test\..*</ModulePath>
+                <ModulePath>.*\.Test\..*</ModulePath>
+                <ModulePath>.*\.FunctionalTest\..*</ModulePath>
+                <ModulePath>.*nddigital.component.core\..*</ModulePath>
+                <ModulePath>.*FluentAssertions\..*</ModulePath>
+                <ModulePath>.*FluentValidation\..*</ModulePath>
+                <ModulePath>.*NDbUnit\..*</ModulePath>
+				        <ModulePath>.*Moq\..*</ModulePath>
+                <ModulePath>.*Quartz\..*</ModulePath>
+                <ModulePath>.*Common.Logging\..*</ModulePath>
+                <ModulePath>.*nservicebus.newtonsoft.json\..*</ModulePath>
+                <ModulePath>.*z.extensionmethods.*</ModulePath>
+				        <ModulePath>.*z.entityframework.plus.*</ModulePath>
+              </Exclude>
+            </ModulePaths>
+
+            <Sources>
+              <Exclude>
+                <Source>.*\\atlmfc\\.*</Source>
+                <Source>.*\\vctools\\.*</Source>
+                <Source>.*\\public\\sdk\\.*</Source>
+                <Source>.*\\microsoft sdks\\.*</Source>
+                <Source>.*\\vc\\include\\.*</Source>
+              </Exclude>
+            </Sources>
+
+            <CompanyNames>
+              <Exclude>
+                <CompanyName>.*microsoft.*</CompanyName>
+                <CompanyName>.*nservicebus.*</CompanyName>
+              </Exclude>
+            </CompanyNames>
+
+            <!-- We recommend you do not change the following values: -->
+            <UseVerifiableInstrumentation>True</UseVerifiableInstrumentation>
+            <AllowLowIntegrityProcesses>True</AllowLowIntegrityProcesses>
+            <CollectFromChildProcesses>True</CollectFromChildProcesses>
+            <CollectAspDotNet>False</CollectAspDotNet>
+
+          </CodeCoverage>
+        </Configuration>
+      </DataCollector>
+    </DataCollectors>
+  </DataCollectionRunSettings>
+</RunSettings>

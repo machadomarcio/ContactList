@@ -1,0 +1,16 @@
+D:\Projetos\git.nddigital\nddFrete_Payment\server\bin\Debug\NDDFrete.Payment.ORM.dll.config
+D:\Projetos\git.nddigital\nddFrete_Payment\server\bin\Debug\NDDFrete.Payment.ORM.dll
+D:\Projetos\git.nddigital\nddFrete_Payment\server\bin\Debug\NDDFrete.Payment.ORM.pdb
+D:\Projetos\git.nddigital\nddFrete_Payment\server\NDDFrete.Payment.ORM\obj\x64\Debug\NDDFrete.Payment.ORM.csprojAssemblyReference.cache
+D:\Projetos\git.nddigital\nddFrete_Payment\server\NDDFrete.Payment.ORM\obj\x64\Debug\NDDFrete.Payment.ORM.csproj.CoreCompileInputs.cache
+D:\Projetos\git.nddigital\nddFrete_Payment\server\NDDFrete.Payment.ORM\obj\x64\Debug\NDDFrete.Payment.ORM.csproj.CopyComplete
+D:\Projetos\git.nddigital\nddFrete_Payment\server\NDDFrete.Payment.ORM\obj\x64\Debug\NDDFrete.Payment.ORM.dll
+D:\Projetos\git.nddigital\nddFrete_Payment\server\NDDFrete.Payment.ORM\obj\x64\Debug\NDDFrete.Payment.ORM.pdb
+D:\Projetos\git.nddigital\ContactList\server\bin\Debug\NDDFrete.Payment.ORM.dll.config
+D:\Projetos\git.nddigital\ContactList\server\bin\Debug\NDDFrete.Payment.ORM.dll
+D:\Projetos\git.nddigital\ContactList\server\bin\Debug\NDDFrete.Payment.ORM.pdb
+D:\Projetos\git.nddigital\ContactList\server\NDDFrete.Payment.ORM\obj\x64\Debug\NDDFrete.Payment.ORM.csprojAssemblyReference.cache
+D:\Projetos\git.nddigital\ContactList\server\NDDFrete.Payment.ORM\obj\x64\Debug\NDDFrete.Payment.ORM.csproj.CoreCompileInputs.cache
+D:\Projetos\git.nddigital\ContactList\server\NDDFrete.Payment.ORM\obj\x64\Debug\NDDFrete.Payment.ORM.csproj.CopyComplete
+D:\Projetos\git.nddigital\ContactList\server\NDDFrete.Payment.ORM\obj\x64\Debug\NDDFrete.Payment.ORM.dll
+D:\Projetos\git.nddigital\ContactList\server\NDDFrete.Payment.ORM\obj\x64\Debug\NDDFrete.Payment.ORM.pdb

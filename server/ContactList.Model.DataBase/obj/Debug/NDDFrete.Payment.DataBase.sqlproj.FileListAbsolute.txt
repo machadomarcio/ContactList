@@ -1,0 +1,15 @@
+D:\Projetos\git.nddigital\nddFrete_Payment\server\NDDFrete.Payment.DataBase\bin\Debug\NDDFrete.Payment.DataBase.dacpac
+D:\Projetos\git.nddigital\nddFrete_Payment\server\NDDFrete.Payment.DataBase\bin\Debug\NDDFrete.Payment.DataBase.dll
+D:\Projetos\git.nddigital\nddFrete_Payment\server\NDDFrete.Payment.DataBase\bin\Debug\NDDFrete.Payment.DataBase.pdb
+D:\Projetos\git.nddigital\nddFrete_Payment\server\NDDFrete.Payment.DataBase\obj\Debug\NDDFrete.Payment.DataBase.dll
+D:\Projetos\git.nddigital\nddFrete_Payment\server\NDDFrete.Payment.DataBase\obj\Debug\NDDFrete.Payment.DataBase.pdb
+D:\Projetos\git.nddigital\nddFrete_Payment\server\NDDFrete.Payment.DataBase\obj\Debug\NDDFrete.Payment.DataBase.sqlprojAssemblyReference.cache
+D:\Projetos\git.nddigital\ContactList\server\NDDFrete.Payment.DataBase\bin\Debug\NDDFrete.Payment.DataBase.dacpac
+D:\Projetos\git.nddigital\ContactList\server\NDDFrete.Payment.DataBase\bin\Debug\NDDFrete.Payment.DataBase.dll
+D:\Projetos\git.nddigital\ContactList\server\NDDFrete.Payment.DataBase\bin\Debug\NDDFrete.Payment.DataBase.pdb
+D:\Projetos\git.nddigital\ContactList\server\NDDFrete.Payment.DataBase\obj\Debug\NDDFrete.Payment.DataBase.dll
+D:\Projetos\git.nddigital\ContactList\server\NDDFrete.Payment.DataBase\obj\Debug\NDDFrete.Payment.DataBase.pdb
+D:\Projetos\git.nddigital\ContactList\server\NDDFrete.Payment.DataBase\obj\Debug\Model.xml
+D:\Projetos\git.nddigital\ContactList\server\NDDFrete.Payment.DataBase\obj\Debug\refactor.xml
+D:\Projetos\git.nddigital\ContactList\server\NDDFrete.Payment.DataBase\obj\Debug\postdeploy.sql
+D:\Projetos\git.nddigital\ContactList\server\NDDFrete.Payment.DataBase\obj\Debug\predeploy.sql

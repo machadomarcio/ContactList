@@ -1,0 +1,7 @@
+D:\Projetos\git.nddigital\nddFrete_Payment\server\bin\Release\NDDFrete.Payment.Domain.dll.config
+D:\Projetos\git.nddigital\nddFrete_Payment\server\bin\Release\NDDFrete.Payment.Domain.dll
+D:\Projetos\git.nddigital\nddFrete_Payment\server\bin\Release\NDDFrete.Payment.Domain.pdb
+D:\Projetos\git.nddigital\nddFrete_Payment\server\NDDFrete.Payment.Domain\obj\Release\NDDFrete.Payment.Domain.csproj.CoreCompileInputs.cache
+D:\Projetos\git.nddigital\nddFrete_Payment\server\NDDFrete.Payment.Domain\obj\Release\NDDFrete.Payment.Domain.csproj.CopyComplete
+D:\Projetos\git.nddigital\nddFrete_Payment\server\NDDFrete.Payment.Domain\obj\Release\NDDFrete.Payment.Domain.dll
+D:\Projetos\git.nddigital\nddFrete_Payment\server\NDDFrete.Payment.Domain\obj\Release\NDDFrete.Payment.Domain.pdb

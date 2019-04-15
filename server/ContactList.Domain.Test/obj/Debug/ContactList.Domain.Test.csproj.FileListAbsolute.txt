@@ -1,0 +1,17 @@
+D:\Projetos\ContactList\server\ContactList.Domain.Test\bin\Debug\ContactList.Domain.Test.dll.config
+D:\Projetos\ContactList\server\ContactList.Domain.Test\bin\Debug\ContactList.Domain.Test.dll
+D:\Projetos\ContactList\server\ContactList.Domain.Test\bin\Debug\ContactList.Domain.Test.pdb
+D:\Projetos\ContactList\server\ContactList.Domain.Test\bin\Debug\ContactList.Domain.dll
+D:\Projetos\ContactList\server\ContactList.Domain.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Projetos\ContactList\server\ContactList.Domain.Test\bin\Debug\Newtonsoft.Json.dll
+D:\Projetos\ContactList\server\ContactList.Domain.Test\bin\Debug\System.ValueTuple.dll
+D:\Projetos\ContactList\server\ContactList.Domain.Test\bin\Debug\TechTalk.SpecFlow.dll
+D:\Projetos\ContactList\server\ContactList.Domain.Test\bin\Debug\ContactList.Domain.pdb
+D:\Projetos\ContactList\server\ContactList.Domain.Test\bin\Debug\ContactList.Domain.dll.config
+D:\Projetos\ContactList\server\ContactList.Domain.Test\bin\Debug\Newtonsoft.Json.xml
+D:\Projetos\ContactList\server\ContactList.Domain.Test\bin\Debug\System.ValueTuple.xml
+D:\Projetos\ContactList\server\ContactList.Domain.Test\obj\Debug\ContactList.Domain.Test.csprojAssemblyReference.cache
+D:\Projetos\ContactList\server\ContactList.Domain.Test\obj\Debug\ContactList.Domain.Test.csproj.CoreCompileInputs.cache
+D:\Projetos\ContactList\server\ContactList.Domain.Test\obj\Debug\ContactList.Domain.Test.csproj.CopyComplete
+D:\Projetos\ContactList\server\ContactList.Domain.Test\obj\Debug\ContactList.Domain.Test.dll
+D:\Projetos\ContactList\server\ContactList.Domain.Test\obj\Debug\ContactList.Domain.Test.pdb
