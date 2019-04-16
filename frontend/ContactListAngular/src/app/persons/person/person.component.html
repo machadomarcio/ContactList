@@ -1,0 +1,64 @@
+<form #form="ngForm" (submit)="onSubmit(form)" autocomplete="off">
+  <fieldset class="form-group">
+    <legend>Person Data</legend>
+    <input type="hidden" name="Id" #Id="ngModel" [(ngModel)]="service.formData.id">
+    <div class="form-group">
+      <label>First Name</label>
+      <input name="FirstName" #FirstName="ngModel" [(ngModel)]="service.formData.firstName" type="text"
+        class="form-control" required>
+      <div class="validation-error" *ngIf="FirstName.invalid && FirstName.touched">First Name is require</div>
+    </div>
+    <div class="form-group">
+      <label>Last Name</label>
+      <input name="LastName" #LastName="ngModel" [(ngModel)]="service.formData.lastName" type="text"
+        class="form-control" required>
+      <div class="validation-error" *ngIf="LastName.invalid && LastName.touched">Last Name is require</div>
+    </div>
+    <div>
+      <label>Contact</label></div>
+    <input type="checkbox" (ngModelChange)="changeWhatsappOrPhone($event)"  #Phone="ngModel" [(ngModel)]="service.formData.phone" id="phone" name="phone">
+    <img
+      src="https://image.flaticon.com/icons/svg/33/33962.svg"
+      alt="some text" width=20 height=20>
+    <input (ngModelChange)="changeWhatsappOrPhone($event)" type="checkbox" #Whatsapp="ngModel" [(ngModel)]="service.formData.whatsapp" id="whatsapp" name="whatsapp">
+    <img src="https://cdn130.picsart.com/276330880018211.png?r1024x1024" width=20 height=20>
+    <input type="checkbox" (ngModelChange)="changeEmail($event)" #Email="ngModel" [(ngModel)]="service.formData.email" id="email" name="email">
+    <img src="http://cdn.onlinewebfonts.com/svg/img_262951.png"
+      alt="some text" width=21 height=21>
+    <div class="row">
+      <div class="col-md-11">
+          <input *ngIf="service.formData.whatsapp || service.formData.phone" name="contactEdit" id="contactEdit" #ContactEdit="ngModel" [(ngModel)]="service.formData.contactValue" type="text"
+          class="form-control"   ngxPhoneMaskBr >
+          <input *ngIf="(!service.formData.whatsapp && !service.formData.phone) || service.formData.email" name="contactEditEmail" id="contactEditEmail" #ContactEdit="ngModel" [(ngModel)]="service.formData.contactValue" type="text"
+          class="form-control" >
+      </div>
+      <input type="hidden" name="ContactId" #Id="ngModel" [(ngModel)]="service.formData.contactid">
+      <button *ngIf="!service.formData.contactid" class="btn btn-sm btn-outline-info" type="button" (click)="addContact(service.formData.contactValue, service.formData.id,service.formData.phone, service.formData.whatsapp, service.formData.email)">+</button>
+      <button *ngIf="service.formData.contactid" class="btn btn-sm btn-outline-success" type="button" (click)="updateContact(service.formData.contactValue, service.formData.id,service.formData.phone, service.formData.whatsapp, service.formData.email, service.formData.contactid)">✓</button>
+    </div>
+    <br />
+    <div>
+      <table class="table table-hover">
+        <tr  *ngFor="let contact of service.lisContact">
+          <td (click)="populateContact(contact)" >{{contact.value}}</td>
+          <td (click)="populateContact(contact)"><img   *ngIf="contact.isPhone"
+              src="https://image.flaticon.com/icons/svg/33/33962.svg"
+              width=20 height=20>
+            <img *ngIf="contact.isWhatsApp" src="https://cdn130.picsart.com/276330880018211.png?r1024x1024" width=20 height=20>
+            <img *ngIf="contact.isEmail" src="http://cdn.onlinewebfonts.com/svg/img_262951.png"
+            alt="some text" width=21 height=21></td>
+          <td><button (click)="deleteContact(contact)" type="button" class="btn btn-sm btn-outline-danger">X</button>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </fieldset>
+  <div class="form-group">
+    <button type="submit" [disabled]="form.invalid" class="btn-lg btn-block">
+      SUBMIT
+    </button>
+    <button type="button" (click)="clearForm(form)" class="btn-lg btn-block">
+      CLEAR
+    </button>
+  </div>
+</form>

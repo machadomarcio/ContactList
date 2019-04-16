@@ -1,0 +1,7 @@
+{
+    "appService.deploySubpath": "dist",
+    "appService.zipIgnorePattern": [
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/83b69b1f-d2e3-4e80-9843-a7e7a5fca80e/resourceGroups/ContactListMarcioTest/providers/Microsoft.Web/sites/ContactListMarcio"
+}

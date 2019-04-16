@@ -1,0 +1,10 @@
+<div class="form-group">
+    <label>Search</label>
+    <input (input)="onKeydown($event.target.value)"  name="Search"  type="text" class="form-control" #Search="ngModel" [(ngModel)]="service.formData.Search">
+  </div>
+<table class="table table-hover">
+  <tr *ngFor="let person of service.list">
+    <td (click)="populateForm(person)">{{person.firstName}} {{person.lastName}}</td>
+    <td><button class="btn btn-sm btn-outline-danger"  (click)="deletePerson(person)">X</button></td>
+  </tr>
+</table>
