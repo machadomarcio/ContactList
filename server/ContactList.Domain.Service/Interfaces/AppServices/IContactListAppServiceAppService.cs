@@ -13,5 +13,6 @@ namespace ContactList.Domain.Service.Interfaces.AppServices
         void Delete(Guid id);
         void DeleteContact(Guid id);
         void SaveContact(ContactValue contact);
+        List<ContactValue> GetContactByPersonId(Guid personId);
     }
 }

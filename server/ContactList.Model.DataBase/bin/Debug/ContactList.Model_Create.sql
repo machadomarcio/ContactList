@@ -59,23 +59,6 @@ USE [$(DatabaseName)];
 
 
 GO
-PRINT N'Creating [dbo].[ContactValue]...';
-
-
-GO
-CREATE TABLE [dbo].[ContactValue] (
-    [Id]         UNIQUEIDENTIFIER NOT NULL,
-    [Value]      VARCHAR (100)    NOT NULL,
-    [ContactId]  UNIQUEIDENTIFIER NOT NULL,
-    [InsertDate] DATETIME         NOT NULL,
-    [IsPhone]    BIT              NOT NULL,
-    [IsWhatsApp] BIT              NOT NULL,
-    [IsEmail]    BIT              NOT NULL,
-    PRIMARY KEY CLUSTERED ([Id] ASC)
-);
-
-
-GO
 PRINT N'Creating [dbo].[Person]...';
 
 
@@ -85,6 +68,23 @@ CREATE TABLE [dbo].[Person] (
     [FirstName]  VARCHAR (50)     NOT NULL,
     [LastName]   VARCHAR (50)     NOT NULL,
     [InsertDate] DATETIME         NOT NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
+
+GO
+PRINT N'Creating [dbo].[ContactValue]...';
+
+
+GO
+CREATE TABLE [dbo].[ContactValue] (
+    [Id]         UNIQUEIDENTIFIER NOT NULL,
+    [Value]      VARCHAR (100)    NOT NULL,
+    [PersonId]   UNIQUEIDENTIFIER NOT NULL,
+    [InsertDate] DATETIME         NOT NULL,
+    [IsPhone]    BIT              NOT NULL,
+    [IsWhatsApp] BIT              NOT NULL,
+    [IsEmail]    BIT              NOT NULL,
     PRIMARY KEY CLUSTERED ([Id] ASC)
 );
 
@@ -117,12 +117,12 @@ ALTER TABLE [dbo].[ContactValue]
 
 
 GO
-PRINT N'Creating [dbo].[FK_ContactValue_Contact]...';
+PRINT N'Creating [dbo].[FK_ContactValue_Person]...';
 
 
 GO
 ALTER TABLE [dbo].[ContactValue]
-    ADD CONSTRAINT [FK_ContactValue_Contact] FOREIGN KEY ([ContactId]) REFERENCES [dbo].[Person] ([Id]);
+    ADD CONSTRAINT [FK_ContactValue_Person] FOREIGN KEY ([PersonId]) REFERENCES [dbo].[Person] ([Id]);
 
 
 GO

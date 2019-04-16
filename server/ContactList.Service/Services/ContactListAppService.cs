@@ -65,6 +65,13 @@ namespace ContactList.Service.Services
         {
             if (contact.Id == Guid.Empty || contact.Id == null)
                 _repositoryContactValue.Value.AddAndSaveChanges(contact);
+            else
+                _repositoryContactValue.Value.UpdateContact(contact);
+        }
+
+        public List<ContactValue> GetContactByPersonId(Guid personId)
+        {
+            return _repositoryContactValue.Value.GetAll().Where(x => x.PersonId == personId).ToList();
         }
         #endregion
     }

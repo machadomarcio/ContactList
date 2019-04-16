@@ -197,7 +197,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NDDFrete.Payment.Builder\ContactList.Test.Builder.csproj">
+    <ProjectReference Include="..\ContactList.Test.Builder\ContactList.Test.Builder.csproj">
       <Project>{42b53612-764f-4e21-bf99-9ac733ccd9bd}</Project>
       <Name>ContactList.Test.Builder</Name>
     </ProjectReference>

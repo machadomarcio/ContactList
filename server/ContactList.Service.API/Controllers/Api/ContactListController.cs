@@ -66,6 +66,30 @@ namespace ContactList.Service.API
         }
 
         [HttpGet]
+        [Route("GetContact/{personId}")]
+        public IHttpActionResult GetContact(Guid personId)
+        {
+            try
+            {
+                List<ContactValueModel> contacts = ContactListAppServiceAppService.Value.GetContactByPersonId(personId)
+                    .Select(x => new ContactValueModel()
+                    {
+                        Id = x.Id,
+                        PersonId = x.PersonId,
+                        Value = x.Value,
+                        IsWhatsApp = x.IsWhatsApp,
+                        IsPhone = x.IsPhone,
+                        IsEmail = x.IsEmail
+                    }).ToList();
+                return Ok(contacts);
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+        }
+
+        [HttpGet]
         [Route("Get")]
         public IHttpActionResult Get()
         {
@@ -126,7 +150,22 @@ namespace ContactList.Service.API
                 throw;
             }
         }
-        
+
+        [HttpPost, Route("UpdateContact")]
+        public IHttpActionResult UpdateContact([FromBody] ContactValue contact)
+        {
+            try
+            {
+                ContactListAppServiceAppService.Value.SaveContact(contact);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+        }
+
 
         [HttpPost]
         [Route("DeletePerson")]

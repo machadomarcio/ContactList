@@ -25,7 +25,7 @@ namespace ContactList.ORM.Test.Features
 
         [TestMethod]
         [FunctionalCategory(CategoryGroup, CategorySubGroup)]
-        public void Deveria_validar_regra_pagamento_quando_clientes_e_refnum_vazios()
+        public void Deveria_criar_teste()
         {
             //Arrange
 

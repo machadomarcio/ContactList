@@ -1,9 +1,9 @@
-﻿using System;
-using System.Linq;
-using ContactList.Domain.Entities;
+﻿using ContactList.Domain.Entities;
 using ContactList.Domain.Service.Interfaces.Repositories;
 using ContactList.ORM.Contexts;
 using ContactList.ORM.Repositories.Base;
+using System;
+using System.Linq;
 using Z.EntityFramework.Plus;
 
 namespace ContactList.ORM.Repositories
@@ -28,6 +28,17 @@ namespace ContactList.ORM.Repositories
         public void DeleteById(Guid id)
         {
             GetAll().Where(x => x.Id == id).Delete();
+        }
+
+        public void UpdateContact(ContactValue contact)
+        {
+            GetAll().Where(x => x.Id == contact.Id).Update(x => new ContactValue
+            {
+                IsEmail = contact.IsEmail,
+                IsPhone = contact.IsPhone,
+                IsWhatsApp = contact.IsWhatsApp,
+                Value = contact.Value
+            });
         }
     }
 }

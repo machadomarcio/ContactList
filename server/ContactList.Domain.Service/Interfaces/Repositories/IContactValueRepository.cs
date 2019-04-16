@@ -9,5 +9,6 @@ namespace ContactList.Domain.Service.Interfaces.Repositories
     {
         void DeleteAllByPersonId(Guid id);
         void DeleteById(Guid id);
+        void UpdateContact(ContactValue contact);
     }
 }

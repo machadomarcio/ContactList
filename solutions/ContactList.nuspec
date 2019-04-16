@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>NDDFrete.Payment</id>
+    <version>$version$</version>
+    <title>NDDFrete.Payment</title>
+    <authors>lourenco.marcon</authors>
+    <owners>lourenco.marcon</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://tfs.ndd.com.br/tfs/NDD-DECollection/Third Part Logistic/_git/nddFrete_Payment?path=%2Fserver%2FNDDFrete.Payment.Domain</projectUrl>
+    <iconUrl>http://lgs1-hmg-frt01:8000/shipper/favicon.ico</iconUrl>
+    <description>Pacote de referência das mensagens, models e entidades para utilização da API do pagamento.</description>
+  </metadata>
+  <files>
+    <file src="..\server\bin\Release\NDDFrete.Payment.Domain.dll" target="lib\net452\NDDFrete.Payment.Domain.dll" />
+  </files>
+</package>
